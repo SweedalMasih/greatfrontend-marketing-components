@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(147.52deg, #f9fafb 8.89%, #d2d6db 100.48%);
+  min-height: 100vh;
+}
+
+.container {
+  font-family: "Noto sans";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 120px;
+}
+
+.blog-card {
+  background-color: #fff;
+  max-width: 340px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+}
+
+.blog-card img {
+  width: 340px;
+  height: 288px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  object-fit: cover;
+}
+
+.blog-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 24px 16px;
+}
+
+.blog-content h2 {
+  color: #171717;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.tag {
+  background-color: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  color: #15803d;
+  width: 67px;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  font-size: 14px;
+}
+
+.card-description {
+  color: #525252;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.readmore-link {
+  color: #4338ca;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 16px;
+}
+
+.readmore-link a:link {
+  text-decoration: none;
+}
+
+.readmore-link a:visited {
+  color: #4338ca;
+  text-decoration: none;
+}
+
+.readmore-link a:hover {
+  color: #4338ca;
+  cursor: pointer;
+}
+
+.readmore-link a:active {
+  color: #4338ca;
+}

@@ -9,6 +9,7 @@ A collection of marketing components built with **HTML and CSS**.
 | Component        | Demo                                  | Code                        |
 | ---------------- | ------------------------------------- | --------------------------- |
 | Testimonial Card | [View](./testimonial-card/index.html) | [Code](./testimonial-card/) |
+| Blog Card        | [View](./blog-card/index.html)        | [Code](./blog-card/)        |
 
 ---
 
