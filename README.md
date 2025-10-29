@@ -10,6 +10,7 @@ A collection of marketing components built with **HTML and CSS**.
 | ---------------- | ------------------------------------- | --------------------------- |
 | Testimonial Card | [View](./testimonial-card/index.html) | [Code](./testimonial-card/) |
 | Blog Card        | [View](./blog-card/index.html)        | [Code](./blog-card/)        |
+| Profile Card     | [View](./profile-card/index.html)     | [Code](./profile-card/)     |
 
 ---
 
