@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(147.52deg, #f9fafb 8.89%, #d2d6db 100.48%);
+  min-height: 100vh;
+}
+
+.container {
+  font-family: "Noto Sans";
+  display: flex;
+  justify-content: center;
+  padding-top: 120px;
+}
+
+.card {
+  width: 340px;
+  background-color: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 24px 16px;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.profile-name {
+  font-size: 20px;
+  font-weight: 500;
+  color: #171717;
+}
+
+.profile-img {
+  width: 64px;
+  height: auto;
+}
+
+.job-role {
+  font-size: 14px;
+  font-weight: 400;
+  color: #525252;
+}
+
+.profile-desc {
+  font-size: 16px;
+  font-weight: 400;
+  color: #525252;
+  text-align: center;
+}
+
+.contact-me {
+  width: 100%;
+  margin-top: 16px;
+  color: #fff;
+  background-color: #4338ca;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+}
+
+.social-media-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.icons {
+  padding: 8px;
+}
